@@ -576,6 +576,10 @@ video {
   top: 0px;
 }
 
+.z-30 {
+  z-index: 30;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -960,10 +964,6 @@ video {
   background-color: rgb(120 65 232 / var(--tw-bg-opacity));
 }
 
-.hover\:fill-\[\#8447FF\]:hover {
-  fill: #8447FF;
-}
-
 .hover\:text-\[\#7841E8\]:hover {
   --tw-text-opacity: 1;
   color: rgb(120 65 232 / var(--tw-text-opacity));
@@ -990,14 +990,6 @@ video {
 
 .group:hover .group-hover\:fill-\[\#8447FF\] {
   fill: #8447FF;
-}
-
-.group:hover .group-hover\:fill-\[\] {
-  fill: ;
-}
-
-.group:hover .group-hover\:font-bold {
-  font-weight: 700;
 }
 
 .group:hover .group-hover\:text-\[\#7841E8\] {
@@ -1204,22 +1196,17 @@ video {
     opacity: 1;
   }
 
-  .lg\:hover\:text-\[\#8447FF\]:hover {
-    --tw-text-opacity: 1;
-    color: rgb(132 71 255 / var(--tw-text-opacity));
-  }
-
   .lg\:hover\:text-\[\#7841E8\]:hover {
     --tw-text-opacity: 1;
     color: rgb(120 65 232 / var(--tw-text-opacity));
   }
 
-  .group:hover .lg\:group-hover\:fill-\[\#8447FF\] {
-    fill: #8447FF;
-  }
-
-  .group:hover .lg\:group-hover\:text-\[\#8447FF\] {
+  .lg\:hover\:text-\[\#8447FF\]:hover {
     --tw-text-opacity: 1;
     color: rgb(132 71 255 / var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:fill-\[\#8447FF\] {
+    fill: #8447FF;
   }
 }
