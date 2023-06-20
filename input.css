@@ -42,3 +42,7 @@
 .mob-menu.active.active {
   @apply visible opacity-100;
 }
+
+.chevron.rotat{
+@apply rotate-180
+}

@@ -904,6 +904,11 @@ video {
   opacity: 1;
 }
 
+.chevron.rotat {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
@@ -955,6 +960,10 @@ video {
   background-color: rgb(120 65 232 / var(--tw-bg-opacity));
 }
 
+.hover\:fill-\[\#8447FF\]:hover {
+  fill: #8447FF;
+}
+
 .hover\:text-\[\#7841E8\]:hover {
   --tw-text-opacity: 1;
   color: rgb(120 65 232 / var(--tw-text-opacity));
@@ -981,6 +990,10 @@ video {
 
 .group:hover .group-hover\:fill-\[\#8447FF\] {
   fill: #8447FF;
+}
+
+.group:hover .group-hover\:fill-\[\] {
+  fill: ;
 }
 
 .group:hover .group-hover\:font-bold {
@@ -1189,5 +1202,24 @@ video {
 
   .lg\:opacity-100 {
     opacity: 1;
+  }
+
+  .lg\:hover\:text-\[\#8447FF\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(132 71 255 / var(--tw-text-opacity));
+  }
+
+  .lg\:hover\:text-\[\#7841E8\]:hover {
+    --tw-text-opacity: 1;
+    color: rgb(120 65 232 / var(--tw-text-opacity));
+  }
+
+  .group:hover .lg\:group-hover\:fill-\[\#8447FF\] {
+    fill: #8447FF;
+  }
+
+  .group:hover .lg\:group-hover\:text-\[\#8447FF\] {
+    --tw-text-opacity: 1;
+    color: rgb(132 71 255 / var(--tw-text-opacity));
   }
 }
